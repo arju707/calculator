@@ -52,7 +52,7 @@ function evaluateResult(event){
 
 
       if(operator==="/"){
-        result=parseInt((firstInput)/(secondInput))
+        result=parseFloat((firstInput)/(secondInput))
         console.log(result)
         document.getElementById("display").value=result
       }
