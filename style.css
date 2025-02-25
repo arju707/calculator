@@ -6,10 +6,12 @@
             height: 100vh;
             background-color: #ffeb99;
             font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-image: url(./assets/DALL·E\ 2025-02-25\ 13.23.26\ -\ A\ 3D-rendered\ kids-themed\ background\ for\ a\ website\ with\ a\ cheerful\ yellow\ color\ scheme.\ The\ scene\ includes\ adorable\ cartoon\ characters\ such\ as\ smiling.webp);
+        
         }
 
         .calculator {
-            width: 260px;
+            width: 280px;
             padding: 20px;
             background: #ffcc00;
             border-radius: 15px;
@@ -24,10 +26,11 @@
             font-size: 1.8rem;
             border: none;
             outline: none;
-            padding: 10px;
+            /* padding: px; */
             background: #fff;
             color: #333;
             border-radius: 10px;
+            /* padding-right: 10px; */
         }
 
         .buttons {
