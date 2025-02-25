@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    do calculations here
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kids Theme Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <h2>Casio</h2>
+      <input type="text" id="display" value="" />
+      <div class="buttons" id="buttons">
+        <button id="clear" onclick="clearDisplay() ">C</button>
+
+        <button class="btn" onclick="buttonClick(event)">7</button>
+
+        <button class="btn" onclick="buttonClick(event)">8</button>
+
+        <button class="btn" onclick="buttonClick(event)">9</button>
+
+        <button class="operator" onclick="opertorClick(event)">/</button>
+
+        <button class="btn" onclick="buttonClick(event)">4</button>
+
+        <button class="btn" onclick="buttonClick(event)">5</button>
+
+        <button class="btn" onclick="buttonClick(event)">6</button>
+
+        <button class="operator" onclick="opertorClick(event)">*</button>
+
+        <button class="btn" onclick="buttonClick(event)">1</button>
+
+        <button class="btn" onclick="buttonClick(event)">2</button>
+
+        <button class="btn" onclick="buttonClick(event)">3</button>
+
+        <button i class="operator" onclick="opertorClick(event)">-</button>
+
+        <button class="btn" onclick="buttonClick(event)">0</button>
+
+        <button class="operator" onclick="buttonClick(event)">.</button>
+
+        <button class="evaluate" onclick="evaluateResult(event)">=</button>
+
+        <button class="operator" onclick="opertorClick(event)">+</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
